@@ -1,0 +1,15 @@
+2026-10-13 10:54:57.089166+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PERSON" not found (this database is empty); SQL statement:
+insert into person (first_name,last_name,id) values (?,?,default) [42104-240]
+2026-10-13 10:56:53.098995+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PERSON" not found (this database is empty); SQL statement:
+insert into person (first_name,last_name,id) values (?,?,default) [42104-240]
+2026-10-13 10:58:22.221967+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PERSON" not found (this database is empty); SQL statement:
+select p1_0.id,p1_0.first_name,p1_0.last_name from person p1_0 [42104-240]
+2026-10-13 11:19:57.197929+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PERSON" not found (this database is empty); SQL statement:
+insert into person (first_name,last_name,id) values (?,?,default) [42104-240]
+2026-10-13 16:25:25.386635+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PERSON" not found (this database is empty); SQL statement:
+insert into person (first_name,last_name,id) values (?,?,default) [42104-240]

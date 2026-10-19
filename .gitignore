@@ -1,0 +1,32 @@
+# Build output (matches target/ in ANY subfolder)
+target/
+build/
+out/
+*.class
+*.jar
+*.war
+!**/mvnw
+!**/maven-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
+application-local.properties
+application-local.yml
+secrets.properties
+
+# Logs
+*.log
+logs/
